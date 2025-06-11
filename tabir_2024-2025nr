@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabir_2024-2025nr</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monomakh&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  
+  
+  
+    <link href="./css/slick.css" rel="stylesheet">
+    <link href="./css/slick-theme.css" rel="stylesheet">
+    <link href="./css/stail.css" rel="stylesheet">
+  </head>
+
+</head>
+<body>
+    
+    <header>
+        <img src=https://res.cloudinary.com/dbzrpqn6y/image/upload/v1739643488/photo_2025-02-15_19-40-15_tdfedb.jpg width=50>
+    <nav id="menu1">
+      <ul>
+        <li><a href='./index.html'>home</a></li>
+         <li><a href='./about.html'>About us</a></li>
+
+     <li><a href='#'>Tabir</a>
+       <ul>
+    <li><a href='#'>2024-2025 nr</a></li>
+  
+
+  </ul>
+     </li>
+          
+           <li><a href='#'>contats</a></li>
+           <li><a href='#'>nastroyki</a></li>
+        </ul>
+    </nav>
+    </nav>
+    
+        
+      </header>
+
+      <main>
+<h1>Змуіна №1<h/1>
+<h2>День 1<h2>
+
+<h2>День 2<h2>
+
+<h2>День 3<h2>
+
+<h2>День 4<h2>
+
+<h2>День 5<h2>
+
+<h2>День 6<h2>
+
+<h2>День 7<h2>
+
+<h2>День 8<h2>
+
+<h2>День 9<h2>
+
+<h2>День 10<h2>
+</main>
+
+
+
+
+
+      <footer>
+        <div>
+       
+         <div>
+           <div class="footer-logo">
+         <img src=https://res.cloudinary.com/dbzrpqn6y/image/upload/v1739643488/photo_2025-02-15_19-40-15_tdfedb.jpg width=50  >
+       
+         
+           <nav id="menu1">
+             <ul>
+               <li><a href='./index.html'>home</a></li>
+                <li><a href='./about.html'>Aboutus</a></li>
+            
+                  <li><a href='#'>Tabir</a>
+       <ul>
+    <li><a href='#'>2024-2025 nr</a></li>
+  
+
+  </ul>
+     </li>
+        
+                  <li><a href='#'>contats</a></li>
+                  <li><a href='#'>nastroyki</a></li>
+               </ul>
+           </nav>
+        </div>
+           <div class="footer-columns">
+             <div class="footer-column"></div>
+           
+           </div>
+           <h3>Контакти</h3>
+             <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Penatibus ut facilisi, nascetur natoque eget vitae lobortis.
+               <br><strong>Email:<a href='#'>istep746@gmail.com</a></strong>
+           </p>
+           </div>
+         </div>
+       </div>
+         <center><small> C2314 blog 2025</small></center>
+         </footer>  
+</body>
+</html>
