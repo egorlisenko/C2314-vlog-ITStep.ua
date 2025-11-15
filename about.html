@@ -1,119 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Monomakh&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  
-  
-  
-    <link href="./css/slick.css" rel="stylesheet">
-    <link href="./css/slick-theme.css" rel="stylesheet">
-    <link href="./css/stail.css" rel="stylesheet">
-  </head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IT STEP | About</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Monomakh&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
+  <link href="./css/slick.css" rel="stylesheet">
+  <link href="./css/slick-theme.css" rel="stylesheet">
+  <link href="./css/stail.css" rel="stylesheet">
 </head>
-<body>
-    
-    <header>
-        <img src=https://res.cloudinary.com/dbzrpqn6y/image/upload/v1739643488/photo_2025-02-15_19-40-15_tdfedb.jpg width=50>
-    <nav id="menu1">
-      <ul>
-        <li><a href='./index.html'>home</a></li>
-         <li><a href='./about.html'>About us</a></li>
+<body class="theme-warm">
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="./index.html">
+        <img src="https://res.cloudinary.com/dbzrpqn6y/image/upload/v1739643488/photo_2025-02-15_19-40-15_tdfedb.jpg" width="64" height="64" alt="C2314 logo">
+        <div class="brand-copy">
+          <span class="eyebrow">C2314 blog</span>
+          <strong>IT STEP Vlog</strong>
+          <small>натхнення та історії з табору</small>
+        </div>
+      </a>
 
-     <li><a href='#'>Tabir</a>
-       <ul>
-    <li><a href='#'>2024-2025 nr</a></li>
-  
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
+      <label class="nav-toggle-label" for="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
 
-  </ul>
-     </li>
-          
-           <li><a href='#'>contats</a></li>
-           <li><a href='#'>nastroyki</a></li>
+      <nav class="site-nav" aria-label="Головне меню">
+        <ul>
+          <li><a href="./index.html">Головна</a></li>
+          <li><a href="./about.html">Про нас</a></li>
+          <li class="has-children">
+            <span>Табір</span>
+            <ul>
+              <li><a href="./tabir_2024-2025nr.html">2024-2025 NR</a></li>
+            </ul>
+          </li>
+          <li><a href="#team">Команда</a></li>
+          <li><a href="./contact.html">Контакти</a></li>
         </ul>
-    </nav>
-    </nav>
-    
-        
-      </header>
+      </nav>
+      <label for="nav-toggle" class="nav-overlay" aria-hidden="true"></label>
+    </div>
+  </header>
 
-      <main>
-        <div class="posts">
-          <div class="post">
-            <img src='./img/photo_2025-03-01_10-19-15.jpg' width='200'>
-            <div>
+  <main class="page-content">
+    <section class="hero">
+      <p class="eyebrow">про нас</p>
+      <h1>IT STEP Вінниця — простір, де підлітки стають авторами власних історій</h1>
+      <p>Ми запустили C2314 vlog, щоб показувати, як молодь вчиться працювати в команді, монтує відео, запускає подкасти та створює справжні IT-проєкти. Наша місія — надихати дітей сміливо пробувати нове та ділитися своїм прогресом зі світом.</p>
+      <div class="hero-cta">
+        <a class="btn primary" href="mailto:istep746@gmail.com">Запросити екскурсію</a>
+        <a class="btn ghost" href="https://youtu.be/rz6KMnBcI5I" target="_blank" rel="noreferrer">Подивитися бекстейдж</a>
+      </div>
+    </section>
+
+    <section class="mission-split">
+      <div>
+        <p class="eyebrow">наша історія</p>
+        <h2>З перших кроків до масштабних проєктів</h2>
+        <p>За останні роки ми провели десятки таборів, навчань і воркшопів. Учні тестують гейміфіковані заняття, вчаться презентувати себе та свої стартап-ідеї, а батьки бачать їхній розвиток у реальному часі через блог.</p>
+        <ul class="mission-list">
+          <li>Сучасні локації та студія для запису влогів.</li>
+          <li>Ментори з різних напрямів: монтаж, графіка, програмування.</li>
+          <li>Щотижневий контент-план і закритий чат підтримки.</li>
+        </ul>
+      </div>
+      <div class="mission-stats">
+        <article>
+          <strong>120+</strong>
+          <span>учасників таборів у 2024</span>
+        </article>
+        <article>
+          <strong>15</strong>
+          <span>знятих сюжетів та інтерв'ю</span>
+        </article>
+        <article>
+          <strong>8</strong>
+          <span>напрямів навчання</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="timeline" aria-label="Основні етапи">
+      <p class="eyebrow">etapy</p>
+      <h2>Шлях команди</h2>
+      <ol>
+        <li>
+          <span>2019</span>
+          <p>Відкрили філію IT STEP у Вінниці та перший медіа-лабораторний клас.</p>
+        </li>
+        <li>
+          <span>2022</span>
+          <p>Запустили сезонні табори з напрямами відеомейкінгу, блогінгу та графіки.</p>
+        </li>
+        <li>
+          <span>2024</span>
+          <p>Створили проєкт C2314 Vlog: студію для зйомок, монтажу та стрімів.</p>
+        </li>
+        <li>
+          <span>2025</span>
+          <p>Готуємо мобільний застосунок для контенту та персоналізованих завдань.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="team-grid" id="team" aria-label="Команда IT STEP">
+      <p class="eyebrow">наша команда</p>
+      <h2>Люди, що підтримують кожного учасника</h2>
+      <div class="posts-grid">
+        <article class="post-card">
+          <img src="./img/photo_2025-03-01_10-19-15.jpg" alt="Надія">
+          <div class="card-body">
             <h3>Надія</h3>
-            <h2>Директор Вінницької Філії IT Step</h2>
-          
+            <p>Директор Вінницької філії IT STEP. Формує стратегічний розвиток та партнерства.</p>
           </div>
-          </div>
-          <div class="post">
-            <img src='./img/photo_2025-01-12_10-39-02.jpg' width='200'>
-            <div>
+        </article>
+        <article class="post-card">
+          <img src="./img/photo_2025-01-12_10-39-02.jpg" alt="Гулівата Марія">
+          <div class="card-body">
             <h3>Гулівата Марія</h3>
-            <h2>Менеджер Навчальної Частини</h2>
-         
+            <p>Менеджер навчальної частини. Відповідає за програми, менторів і якість занять.</p>
           </div>
-          </div>
-          <div class="post">
-            <img src='./img/photo_2025-03-01_10-48-55.jpg' width='200'>
-            <div>
+        </article>
+        <article class="post-card">
+          <img src="./img/photo_2025-03-01_10-48-55.jpg" alt="Олена Рибалт">
+          <div class="card-body">
             <h3>Олена Рибалт</h3>
-            <p>Менеджер Навчальної Частини</p>
-        
+            <p>Наставниця з комунікацій. Допомагає учням впевнено виступати перед камерою.</p>
           </div>
-          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="settings-cta" aria-label="Долучитися до команди">
+      <h2>Хочеш долучитися або запропонувати спільний проєкт?</h2>
+      <p>Напиши нам — з радістю проведемо для тебе персональну екскурсію, поділимося розкладом або допоможемо стартувати власний медіа-челендж.</p>
+      <a class="btn primary" href="mailto:istep746@gmail.com">Зв'язатися</a>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contacts">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-logo">
+          <img src="https://res.cloudinary.com/dbzrpqn6y/image/upload/v1739643488/photo_2025-02-15_19-40-15_tdfedb.jpg" width="56" height="56" alt="C2314 logo">
+          <p>Наша команда IT STEP надихає дітей створювати свої перші медіапроєкти.</p>
         </div>
+        <p class="contact">Email: <a href="mailto:istep746@gmail.com">istep746@gmail.com</a></p>
+      </div>
 
-</main>
-
-
-
-
-
-      <footer>
-        <div>
-       
-         <div>
-           <div class="footer-logo">
-         <img src=https://res.cloudinary.com/dbzrpqn6y/image/upload/v1739643488/photo_2025-02-15_19-40-15_tdfedb.jpg width=50  >
-       
-         
-           <nav id="menu1">
-             <ul>
-               <li><a href='./index.html'>home</a></li>
-                <li><a href='./about.html'>Aboutus</a></li>
-            
-                  <li><a href='#'>Tabir</a>
-       <ul>
-    <li><a href='#'>2024-2025 nr</a></li>
-  
-
-  </ul>
-     </li>
-        
-                  <li><a href='#'>contats</a></li>
-                  <li><a href='#'>nastroyki</a></li>
-               </ul>
-           </nav>
-        </div>
-           <div class="footer-columns">
-             <div class="footer-column"></div>
-           
-           </div>
-           <h3>Контакти</h3>
-             <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Penatibus ut facilisi, nascetur natoque eget vitae lobortis.
-               <br><strong>Email:<a href='#'>istep746@gmail.com</a></strong>
-           </p>
-           </div>
-         </div>
-       </div>
-         <center><small> C2314 blog 2025</small></center>
-         </footer>  
+      <nav class="footer-nav" aria-label="Меню в футері">
+        <strong>Навігація</strong>
+        <ul>
+          <li><a href="./index.html">Головна</a></li>
+          <li><a href="./about.html">Про нас</a></li>
+          <li><a href="./tabir_2024-2025nr.html">Табір</a></li>
+          <li><a href="#team">Команда</a></li>
+        </ul>
+      </nav>
+    </div>
+    <small>© C2314 blog 2025</small>
+  </footer>
+  <script src="./script/jQuery-v3.6.0.js" type="text/javascript"></script>
+  <script src="./script/slick.min.js" type="text/javascript"></script>
+  <script src="./script/script.js" type="text/javascript"></script>
 </body>
 </html>
