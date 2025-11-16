@@ -16,6 +16,9 @@
   margin: 0;
   padding: 0;
 }
+html, body {
+  overflow-x: hidden;
+}
 
 body.theme-warm {
   min-height: 100vh;
