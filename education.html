@@ -12,7 +12,7 @@
   <link href="./css/slick-theme.css" rel="stylesheet">
   <link href="./css/stail.css" rel="stylesheet">
 </head>
-<body class="theme-warm">
+<body class="theme-warm theme-education">
   <header class="site-header">
     <div class="container">
       <a class="brand" href="./index.html">
@@ -50,14 +50,48 @@
   </header>
 
   <main class="page-content education">
-    <section class="hero">
-      <p class="eyebrow">🚀 відео-керівництво</p>
-      <h1>Старт у програмуванні та веброзробці з IT STEP</h1>
-      <p>Ласкаво просимо до нашої освітньої бібліотеки! Тут зібрані практичні відеоуроки, які допоможуть зробити перші кроки у світі розробки, автоматизації та дизайну. Вчись у зручному темпі: дивись, повторюй, створюй власні проєкти.</p>
-      <div class="hero-cta">
-        <a class="btn primary" href="#telegram">Почати з ботів</a>
-        <a class="btn ghost" href="#web">Відкрити веб-курс</a>
+    <section class="hero hero-educ">
+      <div class="hero-copy">
+        <p class="eyebrow">🚀 відео-керівництво</p>
+        <h1>Старт у програмуванні та веброзробці з IT STEP</h1>
+        <p>Ласкаво просимо до нашої освітньої бібліотеки! Тут зібрані практичні відеоуроки, які допоможуть зробити перші кроки у світі розробки, автоматизації та дизайну. Вчись у зручному темпі: дивись, повторюй, створюй власні проєкти.</p>
+        <div class="hero-cta">
+          <a class="btn primary" href="#telegram">Почати з ботів</a>
+          <a class="btn ghost" href="#web">Відкрити веб-курс</a>
+        </div>
       </div>
+      <div class="hero-video">
+        <div class="video-mock">
+          <div class="video-label">Live session</div>
+          <div class="video-thumb">
+            <span class="pulse"></span>
+            <p>Натисни play, щоб побачити, як виглядає урок з ботами та веб-інструментами.</p>
+          </div>
+          <div class="video-timeline">
+            <span style="width:65%"></span>
+          </div>
+        </div>
+        <ul class="hero-chips">
+          <li>Python</li>
+          <li>VS Code</li>
+          <li>Responsive</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="guide-highlights">
+      <article>
+        <strong>12 відео</strong>
+        <p>Покрокові уроки з ботів та сайтостворення.</p>
+      </article>
+      <article>
+        <strong>5 чек-листів</strong>
+        <p>Шаблони налаштувань, плани уроків та тестові завдання.</p>
+      </article>
+      <article>
+        <strong>24/7</strong>
+        <p>Доступ до матеріалів та спільноти учнів.</p>
+      </article>
     </section>
 
     <section class="curriculum" id="telegram">
@@ -68,16 +102,19 @@
       </div>
       <div class="lesson-grid">
         <article class="lesson-card">
+          <span class="badge">video</span>
           <strong>Урок 1</strong>
           <h3>Вступ та реєстрація бота</h3>
           <p>Створюємо акаунт у BotFather, отримуємо токен та налаштовуємо базові параметри.</p>
         </article>
         <article class="lesson-card">
+          <span class="badge">code</span>
           <strong>Урок 2</strong>
           <h3>Перший обробник команд</h3>
           <p>Пишемо скрипт на Python, який відповідає на ключові команди та зберігає контекст.</p>
         </article>
         <article class="lesson-card">
+          <span class="badge">data</span>
           <strong>Урок 3</strong>
           <h3>База даних</h3>
           <p>Підключаємо базу даних для збереження інформації та персоналізації спілкування.</p>
@@ -92,17 +129,20 @@
         <p>Навчися створювати сайти та налаштовувати професійні інструменти кодування. Отримай контроль над VS Code, HTML, CSS та адаптивним дизайном.</p>
       </div>
       <div class="lesson-grid">
-        <article class="lesson-card">
+        <article class="lesson-card card-line">
+          <span class="badge">setup</span>
           <strong>Гайд 1</strong>
           <h3>Visual Studio Code</h3>
           <p>Встановлення й повне налаштування VS Code для Python і фронтенду.</p>
         </article>
-        <article class="lesson-card">
+        <article class="lesson-card card-line">
+          <span class="badge">html/css</span>
           <strong>Гайд 2</strong>
           <h3>Перший сайт</h3>
           <p>Знайомство з HTML та CSS: створюємо структуру сторінки та додаємо стилі.</p>
         </article>
-        <article class="lesson-card">
+        <article class="lesson-card card-line">
+          <span class="badge">ux</span>
           <strong>Гайд 3</strong>
           <h3>Адаптивний дизайн</h3>
           <p>Секрети responsive-верстки, щоб сайт виглядав ідеально на мобільних пристроях.</p>
